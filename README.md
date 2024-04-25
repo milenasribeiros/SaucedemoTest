@@ -17,8 +17,8 @@ Esse repositório foi desenvolvido, com base em alguns estudos e aulas sobre tes
 Os testes automatizados cobrem os seguintes cenários:
 
 - Funcionalidade de Login: Verificar tentativas de login válidas e inválidas.
-- Filtro de Produtos: Validar se os filtros funcionam com a listagem é correta na pagina de produtos.
-- Carrinho de Compras: Testar adição de itens no carrinho de compras. 
+- Filtro de Produtos: Validar se os filtros funcionam com a listagem correta na pagina de produtos.
+- Carrinho de Compras: Testar adição de itens no carrinho de compras usando os diversos logins disponibilizados pelo site. 
 
 ### Melhorias 
 
