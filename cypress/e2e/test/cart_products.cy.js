@@ -1,7 +1,8 @@
+/// Aqui pode ser informado os diferentes logins disponiveis para testar no site, como "probleme_user" e "performance_glitch_user".
 describe('Adicionar produtos ao carrinho', () => {
     beforeEach(() => {
         cy.visit('https://www.saucedemo.com/v1/')
-        cy.get('[data-test="username"]').type("problem_user")
+        cy.get('[data-test="username"]').type("problem_user") 
         cy.get('[data-test="password"]').type("secret_sauce")
         cy.get('#login-button').click()
     });
