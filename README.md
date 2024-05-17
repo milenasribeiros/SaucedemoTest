@@ -11,7 +11,36 @@ Esse repositório foi desenvolvido, com base em alguns estudos e aulas sobre tes
 -  Clone o repositório:
 ```bash
    git clone https://github.com/milenasribeiros/ SaucedemoTest.git
+
 ```
+
+Instalar as dependencias do projeto
+- Digite no terminal: 
+
+```
+cd SaucedemoTest
+npm install
+npm install cypress
+```
+
+_ Abrir o cypress: npx cypress open
+
+### Utilização
+Para executar os testes, siga os passos abaixo:
+
+Navegue até o diretório do projeto, caso ainda não esteja:
+```
+cd SaucedemoTest
+```
+
+Execute o Cypress para abrir a interface de testes:
+```
+npx cypress open
+```
+
+Na interface do Cypress, selecione o navegador de sua preferência e clique em "Start E2E Testing" para visualizar e executar os testes.
+
+
 ## Cenários de Teste
 
 Os testes automatizados cobrem os seguintes cenários:
