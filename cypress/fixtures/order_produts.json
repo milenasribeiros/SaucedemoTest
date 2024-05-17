@@ -1,11 +1,25 @@
 {   
     "produtos" : [
         {
-            "opcao": "az",
+            "opcao": "Name (A to Z)",
             "primeiro": "Sauce Labs Backpack",
-            "ultimo": "Test.allTheThings() T-Shirt (Red)"
-        }
-       
-    ]
-    
-}
+            "segundo": "Sauce Labs Bike Light"
+          },
+          {
+            "opcao": "Name (Z to A)",
+            "primeiro": "Test.allTheThings() T-Shirt (Red)",
+            "segundo": "Sauce Labs Onesie"
+          },
+          {
+            "opcao": "Price (low to high)",
+            "firstPrice": "$7.99",
+            "lastPrice": "$49.99"
+          },
+          {
+            "opcao": "Price (high to low)",
+            "firstPrice": "$49.99",
+            "lastPrice": "$7.99"
+          }
+        ]
+
+    }
