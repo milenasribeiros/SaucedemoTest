@@ -23,7 +23,10 @@ npm install
 npm install cypress
 ```
 
-_ Abrir o cypress: npx cypress open
+- Abrir o cypress: 
+```
+npx cypress open
+```
 
 ### Utilização
 Para executar os testes, siga os passos abaixo:
